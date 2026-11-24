@@ -4,6 +4,16 @@
 
 导出的数据可以直接交给 Claude、ChatGPT 等 AI，分析目标网站不同页面的关键词布局和排词策略。
 
+## 截图
+
+在 `site:` 搜索结果页，结果数旁边出现「导出收录」按钮：
+
+![导出收录按钮](screenshots/export-button.png)
+
+导出的 CSV，包含标题、描述和 URL 三列：
+
+![导出的 CSV](screenshots/csv-result.png)
+
 ## 功能
 
 - 在 `site:域名` 的搜索结果页，"About xx results" 旁边会出现「导出收录」按钮
@@ -66,5 +76,6 @@ CSV 有三列：
 ├── settings.js     设置的默认值和读写，content.js 和弹窗共用
 ├── popup.html      设置弹窗
 ├── popup.js
-└── icons/          插件图标
+├── icons/          插件图标
+└── screenshots/    README 用的截图
 ```
